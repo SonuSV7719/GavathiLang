@@ -1,0 +1,31 @@
+ "highlight.regexes": {
+        "\\b(nahi tar jewha bhawa|jewha bhawa|bhawa he ahe|bol naa bhawa|ahe|hello gavathilang|nahi tar|nahi tar bhawa|bye gavathilang|asel|jewha paryant bhawa|thamb|chalu thew|bhawa input de naa|thamb bhawa|chalu thew bhawa)\\b": {
+            "filterFileRegex": "\\.gavathi$",
+            "decorations": [
+                {
+                    "color": "#f19640",
+                    // "fontWeight": "bold"
+                },
+            ]
+        },
+        "\\b#.*$\\b": {
+            "filterFileRegex": "\\.gavathi$",
+            "decorations": [
+                {
+                    "color": "#088632",
+                }
+            ]
+        },
+        "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b": {
+            "filterFileRegex": "\\.gavathi$",
+            "decorations": [
+                {
+                    "color": "#a89ddb"
+                }
+            ]
+        },
+    },
+    
+    "[gavathi]": {
+    
+    },

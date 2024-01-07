@@ -1,0 +1,7 @@
+1. Open terminal 
+2. type chmod +x GavathiLang.sh
+3. cp GavathiLang.sh /usr/local/bin/GavathiLang
+4. Create filename.gavathi file
+5. Write Code
+6. Run code using following command
+    GavathiLang filename.gavathi
